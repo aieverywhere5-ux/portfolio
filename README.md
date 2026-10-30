@@ -39,7 +39,7 @@ The production website is generated in the `dist` folder.
 
 ## Deploy to GitHub Pages
 
-The GitHub Actions workflow builds the app and deploys the `dist` folder to GitHub Pages on pushes to `main`. In the repository settings, set **Pages > Build and deployment > Source** to **GitHub Actions**. The Vite base path is configured for `https://aieverywhere5-ux.github.io/portfolio/`.
+The GitHub Actions workflow builds the app and deploys the `dist` folder to GitHub Pages on pushes to `main`, including a fallback for refreshing app routes. In the repository settings, set **Pages > Build and deployment > Source** to **GitHub Actions**. The Vite base path is configured for `https://aieverywhere5-ux.github.io/portfolio/`.
 
 ## Before publishing
 1. Replace `YOUR-DOMAIN.example` in `public/robots.txt` and `public/sitemap.xml` with the final website domain.
