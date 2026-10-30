@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { NavLink, Link, Outlet } from 'react-router-dom'
 import { Sun, Moon, Menu, X, ArrowUpRight } from 'lucide-react'
+import { profile } from '../data'
 
 const links = [
   ['Home', '/'], ['About', '/about'], ['Services', '/services'],
@@ -55,7 +56,7 @@ export default function Layout() {
       <main><Outlet /></main>
       <footer className="footer">
         <div><strong>Shaik Thaheed<span className="brand-dot">.</span></strong><p>Digital marketing built around visibility, experience and measurable progress.</p></div>
-        <div className="footer-links"><a href="https://linkedin.com/in/shaikthatheed" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://x.com/harshuthatheed" target="_blank" rel="noreferrer">X / Twitter</a><a href="mailto:shaikthaheed23@gmail.com">Email</a></div>
+        <div className="footer-links"><a href={profile.linkedin} target="_blank" rel="noreferrer">LinkedIn</a><a href={profile.x} target="_blank" rel="noreferrer">X / Twitter</a><a href={`mailto:${profile.email}`}>Email</a></div>
         <small>© {new Date().getFullYear()} Shaik Thaheed. All rights reserved.</small>
       </footer>
     </div>

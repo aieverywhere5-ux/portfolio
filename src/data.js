@@ -3,8 +3,8 @@ export const profile = {
   role: 'Digital Marketing Specialist',
   location: 'Hyderabad, India',
   email: 'shaikthaheed23@gmail.com',
-  linkedin: 'https://linkedin.com/in/shaikthatheed',
-  x: 'https://x.com/harshuthatheed',
+  linkedin: 'https://linkedin.com/in/shaikthaheed',
+  x: 'https://x.com/harshuthaheed',
   summary: 'Digital marketing professional with 5.5+ years of experience across SEO, AEO, GEO, SXO, SEM, paid social, content marketing and website optimisation.'
 }
 
